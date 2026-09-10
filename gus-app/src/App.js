@@ -4,16 +4,9 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Movies from './pages/Movies';
 import About from './pages/About';
-import MovieDetail from './pages/MoviesDetail';
+import MovieDetail from './pages/MovieDetail';
 import NotFound from './pages/NotFound';
 
-
-
-const movies = [
-  { id: 1, title: 'Interstellar', genre: 'Sci-Fi',    year: 2014 },
-  { id: 2, title: 'Your Name',    genre: 'Animation', year: 2016 },
-  { id: 3, title: 'Parasite',     genre: 'Thriller',  year: 2019 },
-];
 /*
 function App() {
   return (
